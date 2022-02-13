@@ -1,0 +1,63 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+  text-align: center;
+  background-color: hsl(233, 47%, 7%);
+  font-family: 'Lexend Deca', sans-serif;
+}
+h1{
+font-size: 1.5vw;
+  color: white;
+  padding: 3.375rem 3.25rem 0.325rem 3.25rem;
+  }
+p{
+  font-size: 0.7vw;
+  color: white;
+  text-align: left;
+  padding: 0.1rem 3.5rem 0.1rem 3.5rem;
+  color: hsla(0, 0%, 100%, 0.6);
+  line-height: 1.5vw;
+}
+table{
+  text-align: center;
+  font-size: 0.8vw;
+  color: white;
+  padding: 2rem 0.5rem 0.1rem 2.5rem;
+  }
+th{
+  font-size: 1vw;
+  color: hsl(0, 0%, 100%);
+}
+td{
+  padding: 0.1vw 1vw;
+  font-size: 0.6vw;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: 'Inter', sans-serif;
+}
+.img {
+  float: right;
+  color: hsl(277, 64%, 61%);
+  margin-left: 4rem;
+  width: 368px;
+    }
+.card{
+  text-align: center;
+  margin: 10rem auto;
+  background-color:  hsl(244, 38%, 16%);
+  height: 304px;
+  min-width: 368px;
+  max-width: 736px;
+  }
+.insights{
+  color: hsl(277, 64%, 61%);
+}
+@media (max-width: 480px) {
+.card {
+  position: relative;
+  top: 0;
+}
+h1 {
+  padding: 0;
+}}
+<meta name="viewport" content="width=device-width,initial-scale=1">
